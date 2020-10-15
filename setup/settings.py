@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     #Meus apps
     'passagens',
     'tempus_dominus',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
