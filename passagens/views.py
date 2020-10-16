@@ -13,6 +13,5 @@ def revisao_consulta(request):
             contexto = {'form':form}
             return render(request, 'minha_consulta.html', contexto)
         else:
-            print('Form inválido')
             contexto = {'form':form}
             return render(request, 'index.html', contexto)
