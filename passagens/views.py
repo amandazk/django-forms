@@ -15,3 +15,4 @@ def revisao_consulta(request):
         else:
             contexto = {'form':form}
             return render(request, 'index.html', contexto)
+
