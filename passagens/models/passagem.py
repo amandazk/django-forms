@@ -9,3 +9,4 @@ class Passagem(models.Model):
     data_pesquisa = models.DateField()
     informacoes = models.TextField(max_length=200, blank=True)
     classe_viagem = models.CharField(max_length=20,choices=ClasseViagem.choices, default=0)
+
